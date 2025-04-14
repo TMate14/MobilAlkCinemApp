@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movie_genres">
+        <item>"Vígjáték"</item>
+        <item>"Dráma"</item>
+        <item>"Horror"</item>
+        <item>"Akció"</item>
+        <item>"Thriller"</item>
+        <item>"Fantasy"</item>
+        <item>"Romantikus"</item>
+        <item>"Sci-fi"</item>
+        <item>"Western"</item>
+        <item>"Bűnügyi"</item>
+        <item>"Dokumentum"</item>
+        <item>"Történelmi"</item>
+    </string-array>
+</resources>

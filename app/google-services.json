@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085196239602",
+    "project_id": "cinemappproject",
+    "storage_bucket": "cinemappproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085196239602:android:b5d9dfff98f5591169066b",
+        "android_client_info": {
+          "package_name": "com.example.cinemapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoPJQopnVCvgcsef7BocoTjKDGrBz9Kr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
