@@ -51,7 +51,9 @@
                 android:text=""
                 android:textColor="@color/light_blue"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textPhone"
@@ -61,7 +63,9 @@
                 android:text=""
                 android:textColor="@color/light_blue"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
 
             <TextView
                 android:id="@+id/textUserEmail"
@@ -81,7 +85,9 @@
                 android:text=""
                 android:textColor="@color/light_blue"
                 android:textSize="18sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
 
             <Button
                 android:id="@+id/buttonLogout"
@@ -101,18 +107,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="(hamarosan elérhető funkció)"
-                android:textColor="@color/blue"
-                android:textStyle="bold" />
-
             <LinearLayout
                 android:id="@+id/layoutBookingsContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" />
+                android:orientation="vertical"
+                android:background="@color/dark_grey" />
         </LinearLayout>
     </ScrollView>
 

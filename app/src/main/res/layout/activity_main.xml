@@ -39,12 +39,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="(Az alkalmazás hamarosan elérhető\nlesz teljes értékű funkciókkal.)"
+        android:text="(Lapozd a film posztereket,\nérintsd meg őket animációhoz)"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!--
     <ImageView
         android:id="@+id/movieCover"
         android:layout_width="295dp"
@@ -52,24 +53,23 @@
         android:clickable="true"
         android:contentDescription="cover"
         android:focusable="true"
-        android:onClick="onLogoClicked"
+        android:onClick="onCoverClicked"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/midnight_coder" />
+    -->
 
-    <TextView
-        android:id="@+id/imageTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Jegyfoglalás hamarosan 😉\nNyomj a plakátra egy kis animációért"
-        android:textColor="@color/white"
-        android:textAlignment="center"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/imageViewPager"
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/movieCover" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <include layout="@layout/custom_toolbar" />
 
@@ -85,5 +85,17 @@
         android:textColor="@color/dark_blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/showMovies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="test"
+        android:text="Vetítések megtekintése"
+        app:layout_constraintBottom_toTopOf="@+id/infoText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/dark_grey"
+        android:backgroundTint="@color/light_blue" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

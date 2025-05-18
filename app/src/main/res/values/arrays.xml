@@ -14,4 +14,16 @@
         <item>"Dokumentum"</item>
         <item>"Történelmi"</item>
     </string-array>
+
+    <string-array name="seat_options">
+        <item>Hátul-bal</item>
+        <item>Hátul-közép</item>
+        <item>Hátul-jobb</item>
+        <item>Közép-bal</item>
+        <item>Közép-közép</item>
+        <item>Közép-jobb</item>
+        <item>Alul-bal</item>
+        <item>Alul-közép</item>
+        <item>Alul-jobb</item>
+    </string-array>
 </resources>

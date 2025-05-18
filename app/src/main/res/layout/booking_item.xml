@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:layout_marginVertical="10dp"
+    android:padding="8dp"
+    android:background="@color/dark_blue"
+    android:layout_marginBottom="8dp" >
+
+    <TextView
+        android:id="@+id/textBookingDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Booking info"
+        android:textColor="@color/light_blue"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonDeleteBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="❌"
+        android:textColor="@color/dark_blue"
+        android:backgroundTint="@color/light_blue"/>
+</LinearLayout>
